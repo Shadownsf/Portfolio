@@ -10,7 +10,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import projetStyle from "assets/jss/material-kit-react/views/componentsSections/projetStyle.jsx";
-import Mobiteach from "./CustomCards/Mobiteach.jsx";
+import { Mobiteach, LostTime } from "./Projets";
 
 class Projet extends React.Component {
   render() {
@@ -26,7 +26,7 @@ class Projet extends React.Component {
                 <Mobiteach />
               </GridItem>
               <GridItem xs={12} sm={12} md={6}>
-                <Mobiteach />
+                <LostTime />
               </GridItem>
             </GridContainer>
           </div>

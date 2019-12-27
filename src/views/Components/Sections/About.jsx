@@ -64,38 +64,41 @@ class About extends React.Component {
                     tabIcon: Face,
                     tabContent: (
                       <>
-                        <h4>responsibility</h4>
+                        <h4>exercitation</h4>
                         <p className={classes.textCenter}>
-                          I think that’s a responsibility that I have, to push
-                          possibilities, to show people, this is the level that
-                          things could be at. So when you get something that has
-                          the name Kanye West on it, it’s supposed to be pushing
-                          the furthest possibilities. I will be the leader of a
-                          company that ends up being worth billions of dollars,
-                          because I got the answers. I understand culture. I am
-                          the nucleus.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo consequat. Duis aute irure dolor in
+                          reprehenderit in voluptate velit esse cillum dolore eu
+                          fugiat nulla pariatur. Excepteur sint occaecat
+                          cupidatat non proident, sunt in culpa qui officia
+                          deserunt mollit anim id est laborum.
                         </p>
-                        <h4>when?</h4>
+                        <h4>ipsum?</h4>
                         <p className={classes.textCenter}>
-                          I think that’s a responsibility that I have, to push
-                          possibilities, to show people, this is the level that
-                          things could be at. So when you get something that has
-                          the name Kanye West on it, it’s supposed to be pushing
-                          the furthest possibilities. I will be the leader of a
-                          company that ends up being worth billions of dollars,
-                          because I got the answers. I understand culture. I am
-                          the nucleus.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo consequat. Duis aute irure dolor in
+                          reprehenderit in voluptate velit esse cillum dolore eu
+                          fugiat nulla pariatur. Excepteur sint occaecat
+                          cupidatat non proident, sunt in culpa qui officia
+                          deserunt mollit anim id est laborum.
                         </p>
                         <h4>culture</h4>
                         <p className={classes.textCenter}>
-                          I think that’s a responsibility that I have, to push
-                          possibilities, to show people, this is the level that
-                          things could be at. So when you get something that has
-                          the name Kanye West on it, it’s supposed to be pushing
-                          the furthest possibilities. I will be the leader of a
-                          company that ends up being worth billions of dollars,
-                          because I got the answers. I understand culture. I am
-                          the nucleus.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo consequat. Duis aute irure dolor in
+                          reprehenderit in voluptate velit esse cillum dolore eu
+                          fugiat nulla pariatur. Excepteur sint occaecat
+                          cupidatat non proident, sunt in culpa qui officia
+                          deserunt mollit anim id est laborum.
                         </p>
                       </>
                     )
@@ -105,14 +108,15 @@ class About extends React.Component {
                     tabIcon: Direction,
                     tabContent: (
                       <p className={classes.textCenter}>
-                        think that’s a responsibility that I have, to push
-                        possibilities, to show people, this is the level that
-                        things could be at. So when you get something that has
-                        the name Kanye West on it, it’s supposed to be pushing
-                        the furthest possibilities. I will be the leader of a
-                        company that ends up being worth billions of dollars,
-                        because I got the answers. I understand culture. I am
-                        the nucleus.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit
+                        anim id est laborum.
                       </p>
                     )
                   }
