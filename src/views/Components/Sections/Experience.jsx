@@ -13,246 +13,83 @@ import typographyStyle from "assets/jss/material-kit-react/views/componentsSecti
 // import experienceStyle from "assets/jss/material-kit-react/views/components/experienceStyle.jsx";
 
 // images
-import dotnetImage from "assets/img/logo/.net.png";
-import angularImage from "assets/img/logo/Angular.png";
-import csharpImage from "assets/img/logo/csharp.png";
-import javascriptImage from "assets/img/logo/javascript.png";
-import mongodbImage from "assets/img/logo/mongodb.png";
-import nodejsImage from "assets/img/logo/nodejs.png";
-import reactImage from "assets/img/logo/react.png";
-import sqlServerImage from "assets/img/logo/sqlServer.png";
-import azureDevopsImage from "assets/img/logo/azureDevOp.png";
-import jqueryImage from "assets/img/logo/jquery.png";
-import gitImage from "assets/img/logo/git.png";
-import azureImage from "assets/img/logo/azure.png";
-import unityImage from "assets/img/logo/unity3d.jpg";
-
+import ScrollableAnchor from "react-scrollable-anchor";
+import Curiosity from "../../Components/ModalView/Softskill/Curiosity";
+import Autonomy from "../../Components/ModalView/Softskill/Autonomy";
+import Determination from "../../Components/ModalView/Softskill/Determination";
+import Frontend from "../ModalView/Hardskill/Frontend";
+import Backend from "../ModalView/Hardskill/Backend";
+import Bdd from "../ModalView/Hardskill/Bdd";
+import Cloud from "../ModalView/Hardskill/Cloud";
+import ContinuousIntegration from "../ModalView/Hardskill/ContinuousIntegration";
+import ProjetManagement from "../ModalView/Hardskill/ProjetManagement";
 class Experience extends React.Component {
   render() {
     const { classes } = this.props;
     return (
       <div className={classes.section}>
-        <div className={classes.container}>
-          <div className={classes.space50} />
-          <div id="images">
-            <div className={classes.title}>
-              <h2>Skills</h2>
+        <ScrollableAnchor id={"experience"}>
+          <div className={classes.container}>
+            <div className={classes.space50} />
+
+            <div id="images">
+              <div className={classes.title}>
+                <h2>Compétences techniques</h2>
+              </div>
+              <GridContainer>
+                <GridItem xs={12} sm={2}>
+                  <h4>Web Front-end</h4>
+                  <Frontend classes={classes} />
+                </GridItem>
+                <GridItem xs={12} sm={2}>
+                  <h4>Web Back-end</h4>
+                  <Backend classes={classes} />
+                </GridItem>
+                <GridItem xs={12} sm={2}>
+                  <h4>Base de données</h4>
+                  <Bdd classes={classes} />
+                </GridItem>
+                <GridItem xs={12} sm={2}>
+                  <h4>Cloud</h4>
+                  <Cloud classes={classes} />
+                </GridItem>
+                <GridItem xs={12} sm={2}>
+                  <h4>Integration continue</h4>
+                  <ContinuousIntegration classes={classes} />
+                </GridItem>
+                <GridItem xs={12} sm={2}>
+                  <h4>Gestion de projets</h4>
+                  <ProjetManagement classes={classes} />
+                </GridItem>
+              </GridContainer>
             </div>
-            <GridContainer>
-              <GridItem xs={12} sm={2}>
-                <h4>.Net</h4>
-                <img
-                  src={dotnetImage}
-                  alt="..."
-                  className={
-                    classes.imgRaised +
-                    " " +
-                    classes.imgRounded +
-                    " " +
-                    classes.imgFluid
-                  }
-                />
-              </GridItem>
-              <GridItem xs={12} sm={2}>
-                <h4>Angular</h4>
-                <img
-                  src={angularImage}
-                  alt="..."
-                  className={
-                    classes.imgRaised +
-                    " " +
-                    classes.imgRounded +
-                    " " +
-                    classes.imgFluid
-                  }
-                />
-              </GridItem>
-              <GridItem xs={12} sm={2}>
-                <h4>Mongo DB</h4>
-                <img
-                  src={mongodbImage}
-                  alt="..."
-                  className={
-                    classes.imgRaised +
-                    " " +
-                    classes.imgRounded +
-                    " " +
-                    classes.imgFluid
-                  }
-                />
-              </GridItem>
-              <GridItem xs={12} sm={2}>
-                <h4>node Js</h4>
-                <img
-                  src={nodejsImage}
-                  alt="..."
-                  className={
-                    classes.imgRaised +
-                    " " +
-                    classes.imgRounded +
-                    " " +
-                    classes.imgFluid
-                  }
-                />
-              </GridItem>
-              <GridItem xs={12} sm={2}>
-                <h4>C#</h4>
-                <img
-                  src={csharpImage}
-                  alt="..."
-                  className={
-                    classes.imgRaised +
-                    " " +
-                    classes.imgRounded +
-                    " " +
-                    classes.imgFluid
-                  }
-                />
-              </GridItem>
-              <GridItem xs={12} sm={2}>
-                <h4>Javascript</h4>
-                <img
-                  src={javascriptImage}
-                  alt="..."
-                  className={
-                    classes.imgRaised +
-                    " " +
-                    classes.imgRounded +
-                    " " +
-                    classes.imgFluid
-                  }
-                />
-              </GridItem>
-            </GridContainer>
-            <GridContainer />
-            <br />
-            <GridContainer>
-              <GridItem xs={12} sm={2}>
-                <h4>React</h4>
-                <img
-                  src={reactImage}
-                  alt="..."
-                  className={
-                    classes.imgRaised +
-                    " " +
-                    classes.imgRounded +
-                    " " +
-                    classes.imgFluid
-                  }
-                />
-              </GridItem>
-              <GridItem xs={12} sm={2}>
-                <h4>SQL Server</h4>
-                <img
-                  src={sqlServerImage}
-                  alt="..."
-                  className={
-                    classes.imgRaised +
-                    " " +
-                    classes.imgRounded +
-                    " " +
-                    classes.imgFluid
-                  }
-                />
-              </GridItem>
-              <GridItem xs={12} sm={2}>
-                <h4>Azure</h4>
-                <img
-                  src={azureImage}
-                  alt="..."
-                  className={
-                    classes.imgRaised +
-                    " " +
-                    classes.imgRounded +
-                    " " +
-                    classes.imgFluid
-                  }
-                />
-              </GridItem>
-              <GridItem xs={12} sm={2}>
-                <h4>Azure DevOps</h4>
-                <img
-                  src={azureDevopsImage}
-                  alt="..."
-                  className={
-                    classes.imgRaised +
-                    " " +
-                    classes.imgRounded +
-                    " " +
-                    classes.imgFluid
-                  }
-                />
-              </GridItem>
-              <GridItem xs={12} sm={2}>
-                <h4>Git</h4>
-                <img
-                  src={gitImage}
-                  alt="..."
-                  className={
-                    classes.imgRaised +
-                    " " +
-                    classes.imgRounded +
-                    " " +
-                    classes.imgFluid
-                  }
-                />
-              </GridItem>
-              <GridItem xs={12} sm={2}>
-                <h4>Jquery</h4>
-                <img
-                  src={jqueryImage}
-                  alt="..."
-                  className={
-                    classes.imgRaised +
-                    " " +
-                    classes.imgRounded +
-                    " " +
-                    classes.imgFluid
-                  }
-                />
-              </GridItem>
-            </GridContainer>
-            <br />
-            <GridContainer>
-              <GridItem xs={12} sm={2}>
-                <h4>Unity 3D</h4>
-                <img
-                  src={unityImage}
-                  alt="..."
-                  className={
-                    classes.imgRaised +
-                    " " +
-                    classes.imgRounded +
-                    " " +
-                    classes.imgFluid
-                  }
-                />
-              </GridItem>
-            </GridContainer>
           </div>
-          <br />
-          <div id="soft-skills">
-            <div className={classes.title}>
-              <h2>Soft Skills</h2>
+        </ScrollableAnchor>
+        <br />
+        <ScrollableAnchor id={"soft-skill"}>
+          <div className={classes.container}>
+            <div className={classes.space50} />
+            <div id="soft-skills">
+              <div className={classes.title}>
+                <h2>Compétences humaines</h2>
+              </div>
+              <GridContainer>
+                <GridItem xs={12} sm={2}>
+                  <h4>Autonomie</h4>
+                  <Autonomy classes={classes} />
+                </GridItem>
+                <GridItem xs={12} sm={2}>
+                  <h4>Détermination</h4>
+                  <Determination classes={classes} />
+                </GridItem>
+                <GridItem xs={12} sm={2}>
+                  <h4>Curiosité</h4>
+                  <Curiosity classes={classes} />
+                </GridItem>
+              </GridContainer>
             </div>
-            <GridContainer>
-              <GridItem xs={12} sm={2}>
-                <h4>blop</h4>
-                <img
-                  src={dotnetImage}
-                  alt="..."
-                  className={
-                    classes.imgRaised +
-                    " " +
-                    classes.imgRounded +
-                    " " +
-                    classes.imgFluid
-                  }
-                />
-              </GridItem>
-            </GridContainer>
           </div>
-        </div>
+        </ScrollableAnchor>
       </div>
     );
   }

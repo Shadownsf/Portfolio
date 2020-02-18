@@ -10,24 +10,25 @@ import Collapse from "@material-ui/core/Collapse";
 import Avatar from "@material-ui/core/Avatar";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
-// import { red } from "@material-ui/core/colors";
-// import FavoriteIcon from "@material-ui/icons/Favorite";
-// import ShareIcon from "@material-ui/icons/Share";
+
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-// import MoreVertIcon from "@material-ui/icons/MoreVert";
-import mobiteach from "assets/img/logo/mobiteach.png";
-import dotnet from "assets/img/logo/.net.png";
-import angular from "assets/img/logo/Angular.png";
+// import mobiteach from "assets/img/logo/mobiteach.png";
+// import angular from "assets/img/logo/Angular.png";
+// import react from "assets/img/logo/react.png";
+// import jquery from "assets/img/logo/jquery.png";
+
+// import dotnet from "assets/img/logo/.net.png";
+// import javascript from "assets/img/logo/javascript.png";
 import csharp from "assets/img/logo/csharp.png";
-import javascript from "assets/img/logo/javascript.png";
-import mongodb from "assets/img/logo/mongodb.png";
-import nodejs from "assets/img/logo/nodejs.png";
-import react from "assets/img/logo/react.png";
-import sqlServer from "assets/img/logo/sqlServer.png";
-import azureDevops from "assets/img/logo/azureDevOp.png";
-import jquery from "assets/img/logo/jquery.png";
-import git from "assets/img/logo/git.png";
-import azure from "assets/img/logo/azure.png";
+// import nodejs from "assets/img/logo/nodejs.png";
+
+// import mongodb from "assets/img/logo/mongodb.png";
+
+// import sqlServer from "assets/img/logo/sqlServer.png";
+// import azureDevops from "assets/img/logo/azureDevOp.png";
+
+// import git from "assets/img/logo/git.png";
+// import azure from "assets/img/logo/azure.png";
 import unity from "assets/img/logo/unity3d.jpg";
 import lostTime from "assets/img/logo/lostTime.png";
 
