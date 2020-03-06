@@ -31,12 +31,17 @@ function HeaderLinks({ ...props }) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
+        <Button href="#about" color="transparent" className={classes.navLink}>
+          <Code className={classes.icons} /> About
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
         <Button
-          href="#soft-skill"
+          href="#parcours"
           color="transparent"
           className={classes.navLink}
         >
-          <Group className={classes.icons} /> Soft Skill
+          <Code className={classes.icons} /> Parcours
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -49,22 +54,18 @@ function HeaderLinks({ ...props }) {
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button href="#projet" color="transparent" className={classes.navLink}>
-          <Code className={classes.icons} /> Projets
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button href="#about" color="transparent" className={classes.navLink}>
-          <Code className={classes.icons} /> About
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
         <Button
-          href="#parcours"
+          href="#soft-skill"
           color="transparent"
           className={classes.navLink}
         >
-          <Code className={classes.icons} /> Parcours
+          <Group className={classes.icons} /> Compétences Humaines
+        </Button>
+      </ListItem>
+
+      <ListItem className={classes.listItem}>
+        <Button href="#projet" color="transparent" className={classes.navLink}>
+          <Code className={classes.icons} /> Projets
         </Button>
       </ListItem>
     </List>

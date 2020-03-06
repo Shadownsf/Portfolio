@@ -93,39 +93,85 @@ export default function Autonomy() {
             </DialogActions>
           </GridItem>
         </GridContainer>
+        <DialogTitle id="alert-dialog-title">Lien avec projets : </DialogTitle>
+
+        <ul>
+          <li>
+            <a href="#journalcollab" onClick={handleClose}>
+              Journal Collaborateur
+            </a>
+          </li>
+          <li>
+            <a href="#mobiteach" onClick={handleClose}>
+              Mobiteach
+            </a>
+          </li>
+          <li>
+            <a href="#unhaj" onClick={handleClose}>
+              Unhaj
+            </a>
+          </li>
+          <li>
+            <a href="#falconlabel" onClick={handleClose}>
+              FalconLabel
+            </a>
+          </li>
+        </ul>
+
         <DialogTitle id="alert-dialog-title">
-          {"Use Google's location service?"}
+          Lien avec compétences techniques :
         </DialogTitle>
+
+        <ul>
+          <li>
+            <a href="#frontend" onClick={handleClose}>
+              Front-End
+            </a>
+          </li>
+          <li>
+            <a href="#backend" onClick={handleClose}>
+              Back-End
+            </a>
+          </li>
+          <li>
+            <a href="#bdd" onClick={handleClose}>
+              Base de données
+            </a>
+          </li>
+          <li>
+            <a href="#cloud" onClick={handleClose}>
+              Cloud Computing
+            </a>
+          </li>
+        </ul>
+
+        <DialogTitle id="alert-dialog-title">Présentation :</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
-            Let Google help apps determine location.
-            <a href="#toto" onClick={handleClose}>
-              parcours
-            </a>
-            This means sending anonymous location data to Google, even when no
-            apps are running. Let Google help apps determine location. This
-            means sending anonymous location data to Google, even when no apps
-            are running. Let Google help apps determine location. This means
-            sending anonymous location data to Google, even when no apps are
-            running. Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
-          </DialogContentText>
-          <DialogContentText id="alert-dialog-description">
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
+            L'autonomie est l'une des caractéristiques primordiales pour un
+            informaticien. sont savoir faire n'est que la sommes des ses
+            expériences et ses éxpériences ne sont formatrice que lorsque le
+            develloppeur prend le temps de l'affronter seul avant de demander de
+            l'aide. entendons nous bien, l'autonomie n'a rien a voir avec le
+            fait d'etre un soliste de l'informatique. Je pense simplement que la
+            vie d'ingénieur en informatique n'est qu'une succéssion de
+            problématique insoluble d'apparence mais que le dévelloppeurs
+            apprends à apréhender avec le temps. L'autonomie selon moi est avant
+            tout la capacité à évaluer le niveau de difficulté de ses
+            problématiques. ne pas hésitez à alerter ses collégue si la
+            difficulter nous dépasse. ainsi que de rendre compte du travail
+            éfféctuer. Le but étant que chaque entité de l'équipe sache à peu
+            prés l'etat d'avancement du travail de sont collègue et aussi
+            retirer de la charge cognitive au chef de projet.
           </DialogContentText>
         </DialogContent>
-        <DialogTitle id="alert-dialog-title">
-          {"Use Google's location service?"}
-        </DialogTitle>
+        <DialogTitle id="alert-dialog-title">Mon Futur :</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
+            Je pense que l'autonomie est une de mes force, cependant je pense
+            avoir encore une marge de progression dans ma communication afin de
+            fluidifié d'avantage mes compte rendu sur l'état d'avancement de mes
+            projets.
           </DialogContentText>
         </DialogContent>
       </Dialog>

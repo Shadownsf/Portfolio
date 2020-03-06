@@ -8,10 +8,11 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 // @material-ui/icons
 import Face from "@material-ui/icons/Face";
+
 import Direction from "@material-ui/icons/DirectionsRun";
+// import SportsBasketball from "@material-ui/icons/SportsBasketball";
 // core components
 import CustomTabs from "components/CustomTabs/CustomTabs.jsx";
-
 import aboutStyle from "assets/jss/material-kit-react/views/componentsSections/aboutStyle.jsx";
 
 class About extends React.Component {
@@ -64,42 +65,50 @@ class About extends React.Component {
                     tabIcon: Face,
                     tabContent: (
                       <>
-                        <h4>exercitation</h4>
-                        <p className={classes.textCenter}>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Ut enim ad minim veniam, quis
-                          nostrud exercitation ullamco laboris nisi ut aliquip
-                          ex ea commodo consequat. Duis aute irure dolor in
-                          reprehenderit in voluptate velit esse cillum dolore eu
-                          fugiat nulla pariatur. Excepteur sint occaecat
-                          cupidatat non proident, sunt in culpa qui officia
-                          deserunt mollit anim id est laborum.
-                        </p>
-                        <h4>ipsum?</h4>
-                        <p className={classes.textCenter}>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Ut enim ad minim veniam, quis
-                          nostrud exercitation ullamco laboris nisi ut aliquip
-                          ex ea commodo consequat. Duis aute irure dolor in
-                          reprehenderit in voluptate velit esse cillum dolore eu
-                          fugiat nulla pariatur. Excepteur sint occaecat
-                          cupidatat non proident, sunt in culpa qui officia
-                          deserunt mollit anim id est laborum.
-                        </p>
-                        <h4>culture</h4>
-                        <p className={classes.textCenter}>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Ut enim ad minim veniam, quis
-                          nostrud exercitation ullamco laboris nisi ut aliquip
-                          ex ea commodo consequat. Duis aute irure dolor in
-                          reprehenderit in voluptate velit esse cillum dolore eu
-                          fugiat nulla pariatur. Excepteur sint occaecat
-                          cupidatat non proident, sunt in culpa qui officia
-                          deserunt mollit anim id est laborum.
-                        </p>
+                        <ul>
+                          <li>
+                            <p className={classes.textCenter}>
+                              Ingénieur de l’Epitech puis INTECH, je dispose de
+                              solides connaissances techniques sur la
+                              programmation orientée objet et l’optimisation de
+                              code, et plus spécifiquement sur le langage C#,
+                              que j’affectionne tout particulièrement, pour sa
+                              puissance et la qualité des outils du Framework
+                              .NET.
+                            </p>
+                            <p className={classes.textCenter}>
+                              En termes de développement logiciel, j’accorde une
+                              grande importance à la qualité de mon code, par le
+                              respect des règles de l’art (Best Practices,
+                              Designs Patterns, normes du clean code…). Je suis
+                              d’ailleurs un grand adepte de l’approche Software
+                              Craftsmanship !
+                            </p>
+                          </li>
+                          <li>
+                            <p className={classes.textCenter}>
+                              J’apporte plus d’importance à la capacité de
+                              découvrir de nouvelles choses, et à les utiliser
+                              correctement, qu’à la simple connaissance de ces
+                              techniques. Ceci inclut une perpétuelle remise en
+                              question pour progresser, et le fait de coder
+                              proprement avec en ligne de mire la maintenabilité
+                              du projet, sa scalabilité dans le temps. Aussi je
+                              mets mes compétences à jours régulièrement afin de
+                              rester à la pointe des nouveaux outils et des bons
+                              pratiques.
+                            </p>
+                          </li>
+                          <li>
+                            <p className={classes.textCenter}>
+                              Curieux par nature je n'hésite pas à me documenter
+                              sur les technologies de développement mais aussi
+                              sur les différents pratiques avec azure, de
+                              virtualisation/conteneurisation ou même sur les
+                              bonnes pratiques CI/DI.
+                            </p>
+                          </li>
+                        </ul>
                       </>
                     )
                   },
@@ -107,19 +116,44 @@ class About extends React.Component {
                     tabName: "Mon but",
                     tabIcon: Direction,
                     tabContent: (
-                      <p className={classes.textCenter}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit
-                        anim id est laborum.
-                      </p>
+                      <ul>
+                        <li>
+                          <p className={classes.textCenter}>
+                            Création de podcats sur la programmation Orienté
+                            Object, sur le Craftsmanship et l'IOT
+                          </p>
+                        </li>
+                        <li>
+                          <p className={classes.textCenter}>
+                            Acquerrir assez de connaissance pour aidé
+                            éfficacement les projets Open Source qui me tiennent
+                            à coeur.
+                          </p>
+                        </li>
+                      </ul>
                     )
                   }
+                  // {
+                  //   tabName: "Mes hobbies",
+                  //   tabIcon: SportsBasketball,
+                  //   tabContent: (
+                  //     <ul>
+                  //       <li>
+                  //         <p className={classes.textCenter}>
+                  //           Création de podcats sur la programmation Orienté
+                  //           Object, sur le Craftsmanship et l'IOT
+                  //         </p>
+                  //       </li>
+                  //       <li>
+                  //         <p className={classes.textCenter}>
+                  //           Acquerrir assez de connaissance pour aidé
+                  //           éfficacement les projets Open Source qui me tiennent
+                  //           à coeur.
+                  //         </p>
+                  //       </li>
+                  //     </ul>
+                  //   )
+                  // }
                 ]}
               />
             </GridItem>

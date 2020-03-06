@@ -10,6 +10,7 @@ import DialogTitle from "@material-ui/core/DialogTitle";
 import azure from "assets/img/logo/azure.png";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
+import ScrollableAnchor from "react-scrollable-anchor";
 
 import cloud from "assets/img/logo/cloud.png";
 import CloseIcon from "@material-ui/icons/Close";
@@ -56,19 +57,21 @@ export default function Cloud() {
 
   return (
     <>
-      <Button onClick={handleOpen} color="primary">
-        <img
-          src={cloud}
-          alt="..."
-          className={
-            classes.imgRaised +
-            " " +
-            classes.imgRounded +
-            " " +
-            classes.imgFluid
-          }
-        />
-      </Button>
+      <ScrollableAnchor id={"cloud"}>
+        <Button onClick={handleOpen} color="primary">
+          <img
+            src={cloud}
+            alt="..."
+            className={
+              classes.imgRaised +
+              " " +
+              classes.imgRounded +
+              " " +
+              classes.imgFluid
+            }
+          />
+        </Button>
+      </ScrollableAnchor>
       <Dialog
         scroll="body"
         maxWidth="xl"
@@ -81,7 +84,7 @@ export default function Cloud() {
         <GridContainer>
           <GridItem xs={12} sm={6}>
             <DialogTitle id="alert-dialog-title">
-              <b>Cloud</b>
+              <b>Cloud Computing</b>
             </DialogTitle>
           </GridItem>
 
@@ -112,39 +115,88 @@ export default function Cloud() {
           </GridContainer>
         </DialogContent>
 
+        <DialogTitle id="alert-dialog-title">Lien avec projets : </DialogTitle>
+        <DialogContentText id="alert-dialog-description">
+          <ul>
+            <li>
+              <a href="#journalcollab" onClick={handleClose}>
+                Journal Collaborateur
+              </a>
+            </li>
+            <li>
+              <a href="#unhaj" onClick={handleClose}>
+                Unhaj
+              </a>
+            </li>
+            <li>
+              <a href="#falconlabel" onClick={handleClose}>
+                FalconLabel
+              </a>
+            </li>
+            <li>
+              <a href="#mobiteach" onClick={handleClose}>
+                Mobiteach
+              </a>
+            </li>
+          </ul>
+        </DialogContentText>
         <DialogTitle id="alert-dialog-title">
-          {"Use Google's location service?"}
+          Lien avec compétences humaines :
         </DialogTitle>
+
+        <DialogContentText id="alert-dialog-description">
+          <ul>
+            <li>
+              <a href="#determination" onClick={handleClose}>
+                Perseverance
+              </a>
+            </li>
+            <li>
+              <a href="#curiosity" onClick={handleClose}>
+                Curiosité
+              </a>
+            </li>
+            <li>
+              <a href="#autonomy" onClick={handleClose}>
+                Autonomie
+              </a>
+            </li>
+          </ul>
+        </DialogContentText>
+
+        <DialogTitle id="alert-dialog-title">Presentation : </DialogTitle>
         <DialogContent>
-          <DialogContentText id="alert-dialog-description">
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
-            Let Google help apps determine location.
-            <a href="#toto" onClick={handleClose}>
-              parcours
-            </a>
-            This means sending anonymous location data to Google, even when no
-            apps are running. Let Google help apps determine location. This
-            means sending anonymous location data to Google, even when no apps
-            are running. Let Google help apps determine location. This means
-            sending anonymous location data to Google, even when no apps are
-            running. Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
-          </DialogContentText>
-          <DialogContentText id="alert-dialog-description">
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
+          <DialogContentText>
+            Le Cloud computing est un ensemble d'offre d'hébergement et des
+            services distants permettant de stocker des application, des base de
+            données et d'autres services
           </DialogContentText>
         </DialogContent>
+
         <DialogTitle id="alert-dialog-title">
-          {"Use Google's location service?"}
+          Mon expériences avec le cloud computing :
         </DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
+            L'ensemble de mes projet au sein de l'entreprise infeeny était
+            héberger sur l'outil de cloud computing nommée azure. Ainsi j'ai eu
+            l'occasion de pouvoir utiliser les services disponible sur la
+            plateforme tel que la création de WebApi, la création de base de
+            données. le projet le plus marquant à mes yeux fut l'implémentation
+            d'Azure function sur le projet SuiviCollab. Une techno dîtes
+            serverless (Faas) permettant de dévellopper et d'exécuter du code
+            sans se soucié des problématiques d'infrastructure ou de
+            maintenance.
+          </DialogContentText>
+        </DialogContent>
+
+        <DialogTitle id="alert-dialog-title">Projection :</DialogTitle>
+        <DialogContent>
+          <DialogContentText id="alert-dialog-description">
+            Le Cloud Computing étant assez vaste. il est long et difficile de
+            maitriser parfaitement toutes les fonctionnalités mise à
+            disposition. mon souhait est d'en apprendre d'avantage sur Azure
+            mais aussi de m'initier a AWS le service concurrent d'Amazone.
           </DialogContentText>
         </DialogContent>
       </Dialog>

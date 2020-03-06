@@ -10,26 +10,33 @@ import Collapse from "@material-ui/core/Collapse";
 import Avatar from "@material-ui/core/Avatar";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
+import ScrollableAnchor from "react-scrollable-anchor";
+
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import mobiteach from "assets/img/logo/mobiteach.png";
-import mobi from "assets/img/logo/mobi.png";
-
 import angular from "assets/img/logo/Angular.png";
+import react from "assets/img/logo/react.png";
+import jquery from "assets/img/logo/jquery.png";
+import infeeny from "assets/img/logo/infeeny.png";
+
+import dotnet from "assets/img/logo/.net.png";
 import javascript from "assets/img/logo/javascript.png";
-import mongodb from "assets/img/logo/mongodb.png";
+import csharp from "assets/img/logo/csharp.png";
 import nodejs from "assets/img/logo/nodejs.png";
-// import react from "assets/img/logo/react.png";
-// import sqlServer from "assets/img/logo/sqlServer.png";
-// import azureDevops from "assets/img/logo/azureDevOp.png";
-// import jquery from "assets/img/logo/jquery.png";
-// import git from "assets/img/logo/git.png";
-// import azure from "assets/img/logo/azure.png";
-// import unity from "assets/img/logo/unity3d.jpg";
-import ScrollableAnchor from "react-scrollable-anchor";
+
+import mongodb from "assets/img/logo/mongodb.png";
+
+import sqlServer from "assets/img/logo/sqlServer.png";
+import azureDevops from "assets/img/logo/azureDevOp.png";
+
+import git from "assets/img/logo/git.png";
+import azure from "assets/img/logo/azure.png";
+import unity from "assets/img/logo/unity3d.jpg";
+import unhaj from "assets/img/logo/Unhaj.jpg";
 
 const useStyles = makeStyles(theme => ({
   avatar: {
-    margin: 10
+    margin: 2
   },
   bigAvatar: {
     margin: 10,
@@ -50,9 +57,12 @@ const useStyles = makeStyles(theme => ({
   expandOpen: {
     transform: "rotate(180deg)"
   }
+  // avatar: {
+  //   backgroundColor: red[500]
+  // }
 }));
 
-export default function Mobiteach() {
+export default function Unhaj() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -62,50 +72,36 @@ export default function Mobiteach() {
 
   return (
     <>
-      <ScrollableAnchor id={"mobiteach"}>
+      <ScrollableAnchor id={"unhaj"}>
         <Card className={classes.card}>
           <CardHeader
             avatar={
               <Avatar
                 alt="Remy Sharp"
-                src={mobiteach}
+                src={infeeny}
                 className={classes.avatar}
               />
             }
             action={<IconButton aria-label="settings"></IconButton>}
-            title="Xperteam , Mobiteach"
-            subheader="Septembre, 2017 - Fevrier, 2018"
+            title="Unhaj, INFEENY | ECONOCOM"
+            subheader="Mars ,2018 - Juillet, 2019"
           />
           <CardMedia
             className={classes.media}
-            image={mobi}
-            title="Project Mobiteach, Xperteam"
+            image={unhaj}
+            title="Unhaj, INFEENY | ECONOCOM"
           />
           <CardContent>
             <Typography variant="body2" color="textSecondary" component="p">
-              Mobiteach est une application d’entraîner embarqué sur un box.
-              elle permet à un instructeur de pouvoir gérer une classe via la
-              connexion à ce box. en effet les apprenant se connecte sur la Box
-              et on accède au cours et peut interagir avec l'instructeur via la
-              connexion Wi-Fi des box.
+              Sihaj est un ensemble de solution de gestion de parc immobiliers
+              pour le compte d’un conglomérat d’association (Unhaj). Il permet
+              la gestion des adhérents au service de ses associations avant
+              pendant et après leurs séjours dans les appartement mise à
+              disposition.
             </Typography>
           </CardContent>
           <CardActions disableSpacing>
             <IconButton aria-label="add to favorites">
-              <Avatar
-                alt="Remy Sharp"
-                src={nodejs}
-                className={classes.avatar}
-              />
-            </IconButton>
-            <IconButton aria-label="share">
-              <Avatar
-                alt="Remy Sharp"
-                src={angular}
-                className={classes.avatar}
-              />
-            </IconButton>
-            <IconButton aria-label="share">
               <Avatar
                 alt="Remy Sharp"
                 src={javascript}
@@ -115,7 +111,28 @@ export default function Mobiteach() {
             <IconButton aria-label="share">
               <Avatar
                 alt="Remy Sharp"
-                src={mongodb}
+                src={csharp}
+                className={classes.avatar}
+              />
+            </IconButton>
+            <IconButton aria-label="share">
+              <Avatar
+                alt="Remy Sharp"
+                src={dotnet}
+                className={classes.avatar}
+              />
+            </IconButton>
+            <IconButton aria-label="share">
+              <Avatar
+                alt="Remy Sharp"
+                src={azureDevops}
+                className={classes.avatar}
+              />
+            </IconButton>
+            <IconButton aria-label="share">
+              <Avatar
+                alt="Remy Sharp"
+                src={sqlServer}
                 className={classes.avatar}
               />
             </IconButton>
@@ -130,6 +147,7 @@ export default function Mobiteach() {
               <ExpandMoreIcon />
             </IconButton>
           </CardActions>
+
           <Collapse in={expanded} timeout="auto" unmountOnExit>
             <CardContent>
               <Typography paragraph>
@@ -138,10 +156,10 @@ export default function Mobiteach() {
               <Typography paragraph>
                 <ul>
                   <li>
-                    <a href="#frontend">FrontEnd</a>
+                    <a href="#frontend">Front-End</a>
                   </li>
                   <li>
-                    <a href="#backend">BackEnd</a>
+                    <a href="#backend">Back-End</a>
                   </li>
                   <li>
                     <a href="#bdd">Base de données</a>
@@ -160,12 +178,6 @@ export default function Mobiteach() {
                   <li>
                     <a href="#autonomy">Autonomie</a>
                   </li>
-                  <li>
-                    <a href="#curiosity">Curiosité</a>
-                  </li>
-                  <li>
-                    <a href="#determination">Détermination</a>
-                  </li>
                 </ul>
               </Typography>
             </CardContent>
@@ -173,29 +185,20 @@ export default function Mobiteach() {
             <CardContent>
               <Typography paragraph>Ma contribution :</Typography>
               <Typography paragraph>
-                durant ce projet dans un premier temps mon role était de donner
-                un coups de main a la maintenance de l'application. <br />
-                Trés vite champs d'action s'est élargie. j'ai dévelloper une
-                application permettant le monitoring des serveurs de
-                l'entreprise. dans le même temps je me suis charger de
-                l'installation de l'application sur les boxs. On m'a laisser la
-                charge de l'automatisation de l'installation. je devais
-                également charger de commander les différents composants des
-                boxs (puce wifi, barette de ram , disque dur etc...) et les
-                montés.
+                Durant se projet mon rôles à été essentiellement d'analyser le
+                code et corriger les bugs. j'ai eu l'occasion d’effectuer de
+                nouvelles features. Crée des rapports pour le service compta
+                grace à SSRS, Ainsi que de mettre en place l'intégration
+                continue avec Aure Devops
               </Typography>
-              <br />
-              <Typography>Ce que j'ai appris</Typography>
-              <br />
+              <Typography paragraph></Typography>
               <Typography paragraph>
-                Ce statge à été éffectuer dans un environement assez
-                particulier. En effet Mon maitre de stage n'etant pas present ,
-                je n'avais pas de développeur présent dans l'enceinte de
-                l'entreprise. Cela ma permis de faire preuve d'une grande
-                autonomie et de perseverance pour menez à bien mes projets.
-                <br />
-                J'ai également pu acquerir des compétences qui n'ont rien à voir
-                avec ma formation.
+                J'ai eu la chance de pouvoir m'occupé seul de ce projet au bout
+                d'un an. ainsi j'ai pu récuillir directement les demandes du
+                client et y répondre. Cela ma permit de mettre à l'épreuve mon
+                autonomie. Ainsi j'ai pu aussi valider tout mes acquis en
+                faisant mes propres choix et en les mettant en place pour le
+                client.
               </Typography>
             </CardContent>
           </Collapse>

@@ -13,6 +13,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 import bdd from "assets/img/logo/bdd.jpg";
 import CloseIcon from "@material-ui/icons/Close";
 import mongodb from "assets/img/logo/mongodb.png";
+import ScrollableAnchor from "react-scrollable-anchor";
 
 import sqlServer from "assets/img/logo/sqlServer.png";
 
@@ -58,19 +59,21 @@ export default function Autonomy() {
 
   return (
     <>
-      <Button onClick={handleOpen} color="primary">
-        <img
-          src={bdd}
-          alt="..."
-          className={
-            classes.imgRaised +
-            " " +
-            classes.imgRounded +
-            " " +
-            classes.imgFluid
-          }
-        />
-      </Button>
+      <ScrollableAnchor id={"bdd"}>
+        <Button onClick={handleOpen} color="primary">
+          <img
+            src={bdd}
+            alt="..."
+            className={
+              classes.imgRaised +
+              " " +
+              classes.imgRounded +
+              " " +
+              classes.imgFluid
+            }
+          />
+        </Button>
+      </ScrollableAnchor>
       <Dialog
         scroll="body"
         maxWidth="xl"
@@ -131,13 +134,24 @@ export default function Autonomy() {
         <DialogContentText id="alert-dialog-description">
           <ul>
             <li>
-              <a href="#coursdescomptes">Cours des comptes</a>
+              <a href="#mobiteach" onClick={handleClose}>
+                Mobiteach
+              </a>
             </li>
             <li>
-              <a href="unhaj">Unhaj</a>
+              <a href="#unhaj" onClick={handleClose}>
+                Unhaj
+              </a>
             </li>
             <li>
-              <a href="falconlabel">FalconLabel</a>
+              <a href="#falconlabel" onClick={handleClose}>
+                FalconLabel
+              </a>
+            </li>
+            <li>
+              <a href="#journalcollab" onClick={handleClose}>
+                Journal Collaborateur
+              </a>
             </li>
           </ul>
         </DialogContentText>
@@ -148,24 +162,29 @@ export default function Autonomy() {
         <DialogContentText id="alert-dialog-description">
           <ul>
             <li>
-              <a href="#perseverance" onClick={handleClose}>
-                Perseverance
+              <a href="#determination" onClick={handleClose}>
+                Détermination
               </a>
             </li>
             <li>
-              <a href="#curiosite" onClick={handleClose}>
+              <a href="#curiosity" onClick={handleClose}>
                 Curiosité
+              </a>
+            </li>
+            <li>
+              <a href="#autonomy" onClick={handleClose}>
+                Autonomie
               </a>
             </li>
           </ul>
         </DialogContentText>
 
-        <DialogTitle id="alert-dialog-title"></DialogTitle>
+        <DialogTitle id="alert-dialog-title">Presentation : </DialogTitle>
         <DialogContent>
-          <DialogTitle id="alert-dialog-title">Presentation : </DialogTitle>
           <DialogContentText>
-            Le Back-end (ou plus précisément Api ou serveur) est le cœur des
-            applications.
+            La base de données est l'endroit ou l'on stock les données. c'est un
+            éléments stratégique parceque le stockage ,la modification et la
+            restitution des données conditionnes tout le reste de l'application.
             <br /> c'est lui qui est chargé de fournir les données au différents
             services consommateurs (site internet, application mobile etc...).
             cette partie de notre métier de développeur nécessite une bonne
@@ -176,12 +195,32 @@ export default function Autonomy() {
         </DialogContent>
 
         <DialogTitle id="alert-dialog-title">
-          {"Use Google's location service?"}
+          Les bases de donéees au quotidien :
         </DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
+            La gestion des base de données sont un enjeux majeur de notre
+            métier. Cependant Lorsque j'ai commencer l'informatique. les base de
+            données n'avais pour seul utilié de persister les données dans le
+            temps. AU fur et à mesure de mes expériences je me suis rendu compte
+            que la restitutions des données était un enjeux majeurs dans le
+            dévellopement d'une application et que cela conditionne tout le
+            reste de l'application. <br />
+            J'ai pu experimenter different type de base de données tel que les
+            documents lors de mon stage. J'ai pu me rendre compte qu'il pouvais
+            être pertinent de mettre en place des batchs de sauvegarde des
+            données qui tourne pendant la nuit.
+          </DialogContentText>
+        </DialogContent>
+
+        <DialogTitle id="alert-dialog-title">Projection :</DialogTitle>
+        <DialogContent>
+          <DialogContentText id="alert-dialog-description">
+            J'espere pouvoir apprendre d'avantage sur l'optimisation des bases
+            de données. notament sur des base de données trés conséquente. Je
+            souhaite également m'aguerir sur les bases de données dans des
+            applications architecturé en micro-service. ou même en apprendre
+            d'avantage sur les base de données de type graph.
           </DialogContentText>
         </DialogContent>
       </Dialog>

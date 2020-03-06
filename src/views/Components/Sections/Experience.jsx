@@ -53,14 +53,14 @@ class Experience extends React.Component {
                   <h4>Cloud</h4>
                   <Cloud classes={classes} />
                 </GridItem>
-                <GridItem xs={12} sm={2}>
+                {/* <GridItem xs={12} sm={2}>
                   <h4>Integration continue</h4>
                   <ContinuousIntegration classes={classes} />
                 </GridItem>
                 <GridItem xs={12} sm={2}>
                   <h4>Gestion de projets</h4>
                   <ProjetManagement classes={classes} />
-                </GridItem>
+                </GridItem> */}
               </GridContainer>
             </div>
           </div>

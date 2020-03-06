@@ -55,7 +55,7 @@ export default function Curiosity() {
 
   return (
     <>
-      <ScrollableAnchor id={"curiosite"}>
+      <ScrollableAnchor id={"curiosity"}>
         <Button onClick={handleOpen} color="primary">
           <img
             src={curiosity}
@@ -93,36 +93,78 @@ export default function Curiosity() {
             </DialogActions>
           </GridItem>
         </GridContainer>
+        <DialogTitle id="alert-dialog-title">Lien avec projets : </DialogTitle>
+
+        <ul>
+          <li>
+            <a href="#journalcollab" onClick={handleClose}>
+              Journal Collaborateur
+            </a>
+          </li>
+          <li>
+            <a href="unhaj" onClick={handleClose}>
+              Mobiteach
+            </a>
+          </li>
+          <li>
+            <a href="#falconlabel" onClick={handleClose}>
+              FalconLabel
+            </a>
+          </li>
+          <li>
+            <a href="#mobiteach" onClick={handleClose}>
+              Mobiteach
+            </a>
+          </li>
+        </ul>
+
         <DialogTitle id="alert-dialog-title">
-          {"Use Google's location service?"}
+          Lien avec compétences techniques :
         </DialogTitle>
+
+        <ul>
+          <li>
+            <a href="#backend" onClick={handleClose}>
+              Back-End
+            </a>
+          </li>
+          <li>
+            <a href="#bdd" onClick={handleClose}>
+              Base de données
+            </a>
+          </li>
+          <li>
+            <a href="#cloud" onClick={handleClose}>
+              Cloud Computing
+            </a>
+          </li>
+        </ul>
+
+        <DialogTitle id="alert-dialog-title">Présentation :</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
-          </DialogContentText>
-          <DialogContentText id="alert-dialog-description">
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
+            La curiosité est l'essence même de ma vie d'ingenieur en
+            informatique. C'est grace ou à cause de ma curiosité que je fais se
+            metier. en effet se metier me donne l'impression d'en apprendre tout
+            les jours et que plus je cherche à comprendre les choses, plus je me
+            rends compte de l'immensité de mon ignorance sur les sujets, plus je
+            cherche à comprendre . Cette boucle sans fin me permet de
+            m'épanouir.
+            <br />
+            L'une de mesforce est que je n'est pas peur de me confronter à de
+            nouveaux sujets, au contraire j'ai être versatile et je pense que
+            mon profils couteaux suisse peut être une réel force dans le reste
+            de ma carrière.
           </DialogContentText>
         </DialogContent>
-        <DialogTitle id="alert-dialog-title">
-          {"Use Google's location service?"}
-        </DialogTitle>
+        <DialogTitle id="alert-dialog-title">Mon Futur :</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
+            Grace à mes différentes expériences je me suis rendu compte que mon
+            réel moteur dans l'informatique etait ma curiosité. Dans le futur le
+            1ère critère de choix sur mes missions se fera avant tout sur la
+            possibilité d'apprendre un maximum de choses et d'en décourvrir
+            d'autres durant la missions.
           </DialogContentText>
         </DialogContent>
       </Dialog>

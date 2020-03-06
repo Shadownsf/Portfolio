@@ -1,15 +1,15 @@
 /*eslint-disable*/
-import React from 'react';
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 // nodejs library that concatenates classes
-import classNames from 'classnames';
-import { List, ListItem, withStyles } from '@material-ui/core';
+import classNames from "classnames";
+import { List, ListItem, withStyles } from "@material-ui/core";
 
 // @material-ui/icons
-import Favorite from '@material-ui/icons/Favorite';
+import Favorite from "@material-ui/icons/Favorite";
 
-import footerStyle from 'assets/jss/material-kit-react/components/footerStyle.jsx';
+import footerStyle from "assets/jss/material-kit-react/components/footerStyle.jsx";
 
 function Footer({ ...props }) {
   const { classes, whiteFont } = props;
@@ -42,15 +42,6 @@ function Footer({ ...props }) {
                 target="_blank"
               >
                 Github
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/license?ref=mkr-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Licenses
               </a>
             </ListItem>
           </List>

@@ -10,6 +10,7 @@ import DialogTitle from "@material-ui/core/DialogTitle";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import backend from "assets/img/logo/backend.png";
+import ScrollableAnchor from "react-scrollable-anchor";
 
 import dotnet from "assets/img/logo/.net.png";
 import javascript from "assets/img/logo/javascript.png";
@@ -59,19 +60,21 @@ export default function Backend() {
 
   return (
     <>
-      <Button onClick={handleOpen} color="primary">
-        <img
-          src={backend}
-          alt="..."
-          className={
-            classes.imgRaised +
-            " " +
-            classes.imgRounded +
-            " " +
-            classes.imgFluid
-          }
-        />
-      </Button>
+      <ScrollableAnchor id={"backend"}>
+        <Button onClick={handleOpen} color="primary">
+          <img
+            src={backend}
+            alt="..."
+            className={
+              classes.imgRaised +
+              " " +
+              classes.imgRounded +
+              " " +
+              classes.imgFluid
+            }
+          />
+        </Button>
+      </ScrollableAnchor>
       <Dialog
         scroll="body"
         maxWidth="xl"
@@ -159,13 +162,24 @@ export default function Backend() {
           <DialogContentText id="alert-dialog-description">
             <ul>
               <li>
-                <a href="#coursdescomptes">Falcon</a>
+                <a href="#unhaj" onClick={handleClose}>
+                  Unhaj
+                </a>
               </li>
               <li>
-                <a href="unhaj">Unhaj</a>
+                <a href="#mobiteach" onClick={handleClose}>
+                  Mobiteach
+                </a>
               </li>
               <li>
-                <a href="falconlabel">Mobiteach</a>
+                <a href="#journalcollab" onClick={handleClose}>
+                  Journal Collaborateur
+                </a>
+              </li>
+              <li>
+                <a href="#falconlabel" onClick={handleClose}>
+                  FalconLabel
+                </a>
               </li>
             </ul>
           </DialogContentText>
@@ -176,8 +190,18 @@ export default function Backend() {
           <DialogContentText id="alert-dialog-description">
             <ul>
               <li>
-                <a href="#curiosite" onClick={handleClose}>
+                <a href="#determination" onClick={handleClose}>
+                  Perseverance
+                </a>
+              </li>
+              <li>
+                <a href="#curiosity" onClick={handleClose}>
                   Curiosité
+                </a>
+              </li>
+              <li>
+                <a href="#autonomy" onClick={handleClose}>
+                  Autonomie
                 </a>
               </li>
             </ul>
@@ -210,7 +234,15 @@ export default function Backend() {
           <DialogTitle id="alert-dialog-title">
             ... qui devient un métier
           </DialogTitle>
-          <DialogContentText id="alert-dialog-description"></DialogContentText>
+          <DialogContentText id="alert-dialog-description">
+            Au fur et à mesure de mes expériences avec le développement
+            informatique j'ai eu la chance d'être confronté à plusieurs
+            problématiques, la résolution de celle-ci demande de se documenter
+            et rechercher les informations. Lors de mes projets professionnel
+            j'ai aussi été sensibilisé à l'importance crucial de l'architecture
+            de mes applications. Il fallait donc être performant oui, mais aussi
+            faire preuve d'une hygiène de code irréprochable.
+          </DialogContentText>
           <DialogTitle id="alert-dialog-title">Projection : </DialogTitle>
           <DialogContentText id="alert-dialog-description">
             Au fur et à mesure de mes expériences avec le développement
@@ -221,12 +253,9 @@ export default function Backend() {
             crucial de l'architecture de mes applications. Il fallait donc être
             performant oui, mais aussi faire preuve d'une hygiène de code
             irréprochable.
-          </DialogContentText>
-
-          <h3 id="alert-dialog-title">Projection : </h3>
-          <DialogContentText id="alert-dialog-description">
+            <br />
             Je souhaite à l'avenir renforcez mes compétences en architecture de
-            logiciel.Notamment sur les architectures distribuées
+            logiciel.Notamment sur les architectures distribuées.
           </DialogContentText>
         </DialogContent>
       </Dialog>

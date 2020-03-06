@@ -128,39 +128,82 @@ export default function ProjetManagement() {
             </GridItem>
           </GridContainer>
         </DialogContent>
+
+        <DialogTitle id="alert-dialog-title">Lien avec projets : </DialogTitle>
+        <DialogContentText id="alert-dialog-description">
+          <ul>
+            <li>
+              <a href="#coursdescomptes">Cours des comptes</a>
+            </li>
+            <li>
+              <a href="unhaj">Unhaj</a>
+            </li>
+            <li>
+              <a href="falconlabel">FalconLabel</a>
+            </li>
+          </ul>
+        </DialogContentText>
         <DialogTitle id="alert-dialog-title">
-          {"Use Google's location service?"}
+          Lien avec compétences humaines :
         </DialogTitle>
+
+        <DialogContentText id="alert-dialog-description">
+          <ul>
+            <li>
+              <a href="#perseverance" onClick={handleClose}>
+                Perseverance
+              </a>
+            </li>
+            <li>
+              <a href="#curiosite" onClick={handleClose}>
+                Curiosité
+              </a>
+            </li>
+          </ul>
+        </DialogContentText>
+
+        <DialogTitle id="alert-dialog-title">Presentation : </DialogTitle>
         <DialogContent>
-          <DialogContentText id="alert-dialog-description">
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
-            Let Google help apps determine location.
-            <a href="#toto" onClick={handleClose}>
-              parcours
-            </a>
-            This means sending anonymous location data to Google, even when no
-            apps are running. Let Google help apps determine location. This
-            means sending anonymous location data to Google, even when no apps
-            are running. Let Google help apps determine location. This means
-            sending anonymous location data to Google, even when no apps are
-            running. Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
-          </DialogContentText>
-          <DialogContentText id="alert-dialog-description">
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
+          <DialogContentText>
+            La base de données est l'endroit ou l'on stock les données. c'est un
+            éléments stratégique parceque le stockage ,la modification et la
+            restitution des données conditionnes tout le reste de l'application.
+            <br /> c'est lui qui est chargé de fournir les données au différents
+            services consommateurs (site internet, application mobile etc...).
+            cette partie de notre métier de développeur nécessite une bonne
+            connaissance des bases en développement informatiques afin de faire
+            des programmes rapide, modulaires et qui peuvent facilement évoluer
+            dans le temps.
           </DialogContentText>
         </DialogContent>
+
         <DialogTitle id="alert-dialog-title">
-          {"Use Google's location service?"}
+          Les bases de donéees au quotidien :
         </DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
+            La gestion des base de données sont un enjeux majeur de notre
+            métier. Cependant Lorsque j'ai commencer l'informatique. les base de
+            données n'avais pour seul utilié de persister les données dans le
+            temps. AU fur et à mesure de mes expériences je me suis rendu compte
+            que la restitutions des données était un enjeux majeurs dans le
+            dévellopement d'une application et que cela conditionne tout le
+            reste de l'application. <br />
+            J'ai pu experimenter different type de base de données tel que les
+            documents lors de mon stage. J'ai pu me rendre compte qu'il pouvais
+            être pertinent de mettre en place des batchs de sauvegarde des
+            données qui tourne pendant la nuit.
+          </DialogContentText>
+        </DialogContent>
+
+        <DialogTitle id="alert-dialog-title">Projection :</DialogTitle>
+        <DialogContent>
+          <DialogContentText id="alert-dialog-description">
+            J'espere pouvoir apprendre d'avantage sur l'optimisation des bases
+            de données. notament sur des base de données trés conséquente. Je
+            souhaite également m'aguerir sur les bases de données dans des
+            applications architecturé en micro-service. ou même en apprendre
+            d'avantage sur les base de données de type graph.
           </DialogContentText>
         </DialogContent>
       </Dialog>

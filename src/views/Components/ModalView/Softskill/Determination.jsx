@@ -9,6 +9,7 @@ import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
+import ScrollableAnchor from "react-scrollable-anchor";
 
 import determination from "assets/img/logo/determination.jpg";
 import CloseIcon from "@material-ui/icons/Close";
@@ -55,19 +56,21 @@ export default function Determination() {
 
   return (
     <>
-      <Button onClick={handleOpen} color="primary">
-        <img
-          src={determination}
-          alt="..."
-          className={
-            classes.imgRaised +
-            " " +
-            classes.imgRounded +
-            " " +
-            classes.imgFluid
-          }
-        />
-      </Button>
+      <ScrollableAnchor id={"determination"}>
+        <Button onClick={handleOpen} color="primary">
+          <img
+            src={determination}
+            alt="..."
+            className={
+              classes.imgRaised +
+              " " +
+              classes.imgRounded +
+              " " +
+              classes.imgFluid
+            }
+          />
+        </Button>
+      </ScrollableAnchor>
       <Dialog
         scroll="body"
         maxWidth="xl"
@@ -95,20 +98,46 @@ export default function Determination() {
 
         <ul>
           <li>
-            <a href="#journalcollaborateur">Docker</a>
+            <a href="#journalcollaborateur" onClick={handleClose}>
+              Journal Collaborateur
+            </a>
           </li>
           <li>
-            <a href="unhaj">Mobiteach</a>
+            <a href="#mobiteach" onClick={handleClose}>
+              Mobiteach
+            </a>
+          </li>
+          <li>
+            <a href="#falconlabel" onClick={handleClose}>
+              FalconLabel
+            </a>
           </li>
         </ul>
 
         <DialogTitle id="alert-dialog-title">
-          Lien avec compétences techniques :{" "}
+          Lien avec compétences techniques :
         </DialogTitle>
 
         <ul>
           <li>
-            <a href="#curiosite" onClick={handleClose}></a>
+            <a href="#frontend" onClick={handleClose}>
+              Front-End
+            </a>
+          </li>
+          <li>
+            <a href="#backend" onClick={handleClose}>
+              Back-End
+            </a>
+          </li>
+          <li>
+            <a href="#bdd" onClick={handleClose}>
+              Base de données
+            </a>
+          </li>
+          <li>
+            <a href="#cloud" onClick={handleClose}>
+              Cloud Computing
+            </a>
           </li>
         </ul>
 
@@ -126,7 +155,15 @@ export default function Determination() {
             humaine à l'épreuve apres ma césure de 3 ans dans l'informatique.
             J'ai repris mes études. J'ai également eu l'occasion de me
             challenger sur des sujets nouveaux pour moi en entreprise mais que
-            j'ai pu apprivoisé , puis maitriser. (exemple docker, mobiteach).
+            j'ai pu apprivoisé , puis maitriser. Afin d'illustrer mon propos je
+            prendrais l'exemple de mon expériences avec le projet Mobiteach. En
+            effet durant se projet j'ai du mettre en place des choses qui
+            n'avait pas grand choses à voir avec ma formation de développeur
+            comme par exemple la gestions des stocks du materiel de l'entreprise
+            ou l'automatisation de l'installation des apllications sur les boxs
+            utilisées pour le projets. Grace a ma determination j'ai pu prendre
+            ses problématique à bras le corps et j'ai pu repondre seul au defis
+            qui se présentait devant moi.
           </DialogContentText>
         </DialogContent>
         <DialogTitle id="alert-dialog-title">Mon Futur :</DialogTitle>

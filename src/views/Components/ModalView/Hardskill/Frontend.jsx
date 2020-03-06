@@ -15,6 +15,7 @@ import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
+import ScrollableAnchor from "react-scrollable-anchor";
 
 import frontend from "assets/img/logo/frontend.png";
 import CloseIcon from "@material-ui/icons/Close";
@@ -61,19 +62,21 @@ export default function Frontend() {
 
   return (
     <>
-      <Button onClick={handleOpen} color="primary">
-        <img
-          src={frontend}
-          alt="..."
-          className={
-            classes.imgRaised +
-            " " +
-            classes.imgRounded +
-            " " +
-            classes.imgFluid
-          }
-        />
-      </Button>
+      <ScrollableAnchor id={"frontend"}>
+        <Button onClick={handleOpen} color="primary">
+          <img
+            src={frontend}
+            alt="..."
+            className={
+              classes.imgRaised +
+              " " +
+              classes.imgRounded +
+              " " +
+              classes.imgFluid
+            }
+          />
+        </Button>
+      </ScrollableAnchor>
       <Dialog
         scroll="body"
         maxWidth="xl"
@@ -181,13 +184,24 @@ export default function Frontend() {
           <DialogContentText id="alert-dialog-description">
             <ul>
               <li>
-                <a href="falconlabel">Mobiteach</a>
+                <a href="#mobiteach" onClick={handleClose}>
+                  Mobiteach
+                </a>
               </li>
               <li>
-                <a href="#journalcollaborateur">Journal collaborateur</a>
+                <a href="#journalcollab" onClick={handleClose}>
+                  Journal collaborateur
+                </a>
               </li>
               <li>
-                <a href="falconlabel">FalconLabel</a>
+                <a href="#falconlabel" onClick={handleClose}>
+                  FalconLabel
+                </a>
+              </li>
+              <li>
+                <a href="#unhaj" onClick={handleClose}>
+                  Unhaj
+                </a>
               </li>
             </ul>
           </DialogContentText>
@@ -196,8 +210,13 @@ export default function Frontend() {
           <DialogContentText id="alert-dialog-description">
             <ul>
               <li>
-                <a href="#détermination" onClick={handleClose}>
+                <a href="#determination" onClick={handleClose}>
                   Détermination
+                </a>
+              </li>
+              <li>
+                <a href="#autonomy" onClick={handleClose}>
+                  Autonomie
                 </a>
               </li>
             </ul>
