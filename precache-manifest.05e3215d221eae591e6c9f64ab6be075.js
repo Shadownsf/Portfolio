@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe362589e231708091c6e1d79828099d",
+    "revision": "bca4b23f9d8f6e9e399f47118f75e0a0",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "5ac43012f89febfb31ea",
-    "url": "/Portfolio/static/css/2.0eaf8e31.chunk.css"
+    "revision": "c97d252013af446aa4a4",
+    "url": "/Portfolio/static/css/2.400ebc83.chunk.css"
   },
   {
-    "revision": "e837acbbe19a8ea19022",
+    "revision": "31b4f3df1e63f01ac66a",
     "url": "/Portfolio/static/css/main.1fb7086c.chunk.css"
   },
   {
-    "revision": "5ac43012f89febfb31ea",
-    "url": "/Portfolio/static/js/2.91f7bcc2.chunk.js"
+    "revision": "c97d252013af446aa4a4",
+    "url": "/Portfolio/static/js/2.84ea0189.chunk.js"
   },
   {
     "revision": "d54387b171a4005e2106389870c60b3a",
-    "url": "/Portfolio/static/js/2.91f7bcc2.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.84ea0189.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e837acbbe19a8ea19022",
-    "url": "/Portfolio/static/js/main.56a029ed.chunk.js"
+    "revision": "31b4f3df1e63f01ac66a",
+    "url": "/Portfolio/static/js/main.1d5329e1.chunk.js"
   },
   {
     "revision": "38bd9864b89542ee2c09",
@@ -30,6 +30,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e17e47d5dfdcea0c7bf2dfd6bf55f6d8",
     "url": "/Portfolio/static/media/.net.e17e47d5.png"
+  },
+  {
+    "revision": "3de0799bd39c2f357822fe5d9e017aec",
+    "url": "/Portfolio/static/media/FalconLabel.3de0799b.png"
+  },
+  {
+    "revision": "36b37562feb008284acfb6927fba03c8",
+    "url": "/Portfolio/static/media/JournalCollab.36b37562.png"
+  },
+  {
+    "revision": "24365f2d8c4c4adae511f7e40cd407a8",
+    "url": "/Portfolio/static/media/Unhaj.24365f2d.jpg"
   },
   {
     "revision": "f935f7aa56e2ffe3d4d9a75180647d98",
@@ -50,10 +62,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "be08914b5628819c66385fa8c6dd9ef0",
     "url": "/Portfolio/static/media/blop.be08914b.jpg"
-  },
-  {
-    "revision": "dec1fb9aff751f1969335a8f9b92ffb3",
-    "url": "/Portfolio/static/media/lostTime.dec1fb9a.png"
   },
   {
     "revision": "d3c3b13df67559505c59190751d43fb0",
