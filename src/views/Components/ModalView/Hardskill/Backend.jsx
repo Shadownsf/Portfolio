@@ -12,7 +12,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 import backend from "assets/img/logo/backend.png";
 import ScrollableAnchor from "react-scrollable-anchor";
 
-import dotnet from "assets/img/logo/.net.png";
+import dotnet from "assets/img/logo/dotnet.png";
 import javascript from "assets/img/logo/javascript.png";
 import csharp from "assets/img/logo/csharp.png";
 import nodejs from "assets/img/logo/nodejs.png";
@@ -212,23 +212,21 @@ export default function Backend() {
           <DialogContentText>
             Le Back-end (ou plus précisément Api ou serveur) est le cœur des
             applications.
-            <br /> c'est lui qui est chargé de fournir les données au différents
+            <br /> C'est lui qui est chargé de fournir les données aux différents
             services consommateurs (site internet, application mobile etc...).
-            cette partie de notre métier de développeur nécessite une bonne
-            connaissance des bases en développement informatiques afin de faire
-            des programmes rapide, modulaires et qui peuvent facilement évoluer
-            dans le temps.
+            Cette partie de notre métier de développeur nécessite une bonne
+            connaissance des bases en développement informatique afin de faire
+            des programmes rapides, modulaires .
           </DialogContentText>
           <DialogTitle id="alert-dialog-title">
             Le développement Back-end, un jeu...
           </DialogTitle>
           <DialogContentText id="alert-dialog-description">
-            C'est l'un des aspects de l'informatique qui m'a toujours attirés.
-            mettre en place l'api la plus rapide. la plus économe en ressource
-            la plus modulaire possible tout en répondant aux besoins exprimé par
-            un client sont des problématiques qui peuvent s'apparenter à celles
-            du sport ou du jeu vidéo de mon point de vue, au niveau de la
-            performance et de l'hygiène ( de travail ou sportive).
+            C'est l'un des aspects de l'informatique qui m'a toujours attiré.
+            Mettre en place l'api la plus rapide, la plus économe en ressource,
+            la plus modulaire possible, qui évolue facilement dans le temps , tout en répondant aux besoins exprimés par
+            un client. Ce sont des problématiques qui peuvent s'apparenter à celles
+            du sport ou du jeu vidéo de mon point de vue.
           </DialogContentText>
 
           <DialogTitle id="alert-dialog-title">
@@ -236,26 +234,17 @@ export default function Backend() {
           </DialogTitle>
           <DialogContentText id="alert-dialog-description">
             Au fur et à mesure de mes expériences avec le développement
-            informatique j'ai eu la chance d'être confronté à plusieurs
-            problématiques, la résolution de celle-ci demande de se documenter
+            informatique, j'ai eu la chance d'être confronté à plusieurs
+            problématiques. La résolution de celles-ci demande de se documenter
             et rechercher les informations. Lors de mes projets professionnel
             j'ai aussi été sensibilisé à l'importance crucial de l'architecture
-            de mes applications. Il fallait donc être performant oui, mais aussi
+            de mes applications. Il fallait donc être performant, mais aussi
             faire preuve d'une hygiène de code irréprochable.
           </DialogContentText>
           <DialogTitle id="alert-dialog-title">Projection : </DialogTitle>
           <DialogContentText id="alert-dialog-description">
-            Au fur et à mesure de mes expériences avec le développement
-            informatique j'ai eu la chance d'être confronté à plusieurs
-            problématiques, la résolution de celle-ci demande de se documenter
-            et rechercher les informations. Lors de mes projets professionnels
-            en .net Core et C#, j'ai aussi été sensibilisé à l'importance
-            crucial de l'architecture de mes applications. Il fallait donc être
-            performant oui, mais aussi faire preuve d'une hygiène de code
-            irréprochable.
-            <br />
             Je souhaite à l'avenir renforcez mes compétences en architecture de
-            logiciel.Notamment sur les architectures distribuées.
+            logiciel. Notamment sur les architectures distribuées. 
           </DialogContentText>
         </DialogContent>
       </Dialog>

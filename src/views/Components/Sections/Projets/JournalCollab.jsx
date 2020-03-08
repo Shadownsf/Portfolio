@@ -15,7 +15,7 @@ import ScrollableAnchor from "react-scrollable-anchor";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import angular from "assets/img/logo/Angular.png";
 
-import dotnet from "assets/img/logo/.net.png";
+import dotnet from "assets/img/logo/dotnet.png";
 import javascript from "assets/img/logo/javascript.png";
 import csharp from "assets/img/logo/csharp.png";
 
@@ -85,7 +85,7 @@ export default function JournalCollab() {
             <Typography variant="body2" color="textSecondary" component="p">
               SuiviCollab est une application interne de gestion des
               collaborateurs. Elle aide les managers dans la gestion des
-              collaborateurs qui leur sont assignées.
+              collaborateurs qui leur sont assignés.
             </Typography>
           </CardContent>
           <CardActions disableSpacing>
@@ -186,23 +186,23 @@ export default function JournalCollab() {
             <CardContent>
               <Typography paragraph>Ma contribution :</Typography>
               <Typography paragraph>
-                Mon roles dans se projet un peu particulier etait dans un
+                Mon rôle dans ce projet etait dans un
                 premier temps de mettre en place un batch de récupération de
-                données depuis une autres application. Ce batch était une Azure
+                données depuis une autre application. Ce batch était une Azure
                 function les azure function sont une nouvelle forme de service
-                (FaaS) trés peu utiliser et qui est donc pas beaucoups
-                documenté. J'ai pu ainsi assouvir ma curisité en prenant le
-                temps de découvrir cette nouvelles fonctionnalité d'Azure.
+                (FaaS) trés peu démocratisé et qui est donc peu
+                documenté. J'ai pu ainsi assouvir ma curiosité en prenant le
+                temps de découvrir cette nouvelle fonctionnalité d'Azure.
               </Typography>
               <Typography paragraph>
-                Ensuite j'ai pu donner un coups de main sur le Front de
-                l'application pour enfin finir par mettre en place la gestion
-                des roles et les auhtentification des utilisateurs
+                Ensuite j'ai pu donner un coup de main sur le Front de
+                l'application. Pour finir j'ai mit en place la gestion
+                des roles et de l'authentification des utilisateurs
               </Typography>
               <br />
-              <Typography paragraph>Ce que se projet m'a appris</Typography>
+              <Typography paragraph>Ce que ce projet m'a appris :</Typography>
               <Typography paragraph>
-                Ce projet ma permis de m'exercer sur des nouvelles technologie
+                Ce projet m'a permis de m'exercer sur des nouvelles technologies
                 et m'a permis de m'aguerir sur Angular. J'ai également pu mettre
                 en place un nouveau design pattern.
               </Typography>

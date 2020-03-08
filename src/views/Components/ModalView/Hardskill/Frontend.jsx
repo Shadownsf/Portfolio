@@ -226,25 +226,25 @@ export default function Frontend() {
           <h3 id="alert-dialog-title">Présentation : </h3>
           <DialogContentText id="alert-dialog-description">
             Le web coté client dit front-end est l'interface entre les
-            utilisateurs et le cœurs d'un site internet (serveur).
+            utilisateurs et le cœur d'un site internet (serveur).
             <br />
-            Il permet de restituer les données fournit par le serveur de manière
+            Il permet de restituer les données fournient par le serveur de manière
             esthétique et intuitive.
           </DialogContentText>
 
           <h3 id="alert-dialog-title">Le front-end et mes apprioris.</h3>
           <DialogContentText id="alert-dialog-description">
-            Lorsque j'ai commencé à codé je n’était pas spécialement attiré le
-            design de mes sites. c'est lors du projet mobiteach que j'ai compris
+            Lorsque j'ai commencé à coder je n’étais pas spécialement attiré le
+            design de mes sites. C'est lors du projet mobiteach que j'ai compris
             les réels enjeux qui peuvent y être liés.
             <br />
-            En effet, il fallait que je mettent en place un outils permettant de
-            monitoré les serveurs de l'entreprise.
+            En effet, il fallait que je mette en place un outils permettant de
+            monitorer les serveurs de l'entreprise.
             <br />
-            Permettre à l'application d’être intuitive devenait un enjeux majeur
+            Permettre à l'application d’être intuitive est devenu un enjeux majeur
             du projet.
             <br />
-            j'ai ainsi dévellopper mes compétences en css, Javascript et jquery.
+            J'ai ainsi développeé mes compétences en css, Javascript et jquery.
             <br />
           </DialogContentText>
 
@@ -260,9 +260,9 @@ export default function Frontend() {
           <h3 id="alert-dialog-title">Projection</h3>
           <DialogContentText id="alert-dialog-description">
             Je souhaite continuer à apprendre le front-end et a répondre au
-            futur problématique qui se dresserons demain.
+            futur problématique qui se dresseront demain.
             <br />
-            J’espère prendre plus d’expérience en React notamment.
+            J’espère acquerir plus d’expérience en React notamment.
           </DialogContentText>
         </DialogContent>
       </Dialog>

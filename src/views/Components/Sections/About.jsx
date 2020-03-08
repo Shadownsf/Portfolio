@@ -95,7 +95,7 @@ class About extends React.Component {
                               proprement avec en ligne de mire la maintenabilité
                               du projet, sa scalabilité dans le temps. Aussi je
                               mets mes compétences à jours régulièrement afin de
-                              rester à la pointe des nouveaux outils et des bons
+                              rester à la pointe des nouveaux outils et des bonnes
                               pratiques.
                             </p>
                           </li>
@@ -103,7 +103,7 @@ class About extends React.Component {
                             <p className={classes.textCenter}>
                               Curieux par nature je n'hésite pas à me documenter
                               sur les technologies de développement mais aussi
-                              sur les différents pratiques avec azure, de
+                              sur les différentes pratiques avec azure, de
                               virtualisation/conteneurisation ou même sur les
                               bonnes pratiques CI/DI.
                             </p>
@@ -119,13 +119,13 @@ class About extends React.Component {
                       <ul>
                         <li>
                           <p className={classes.textCenter}>
-                            Création de podcats sur la programmation Orienté
-                            Object, sur le Craftsmanship et l'IOT
+                            Création de podcats sur la programmation orientée
+                            objet, sur le Craftsmanship et l'IOT
                           </p>
                         </li>
                         <li>
                           <p className={classes.textCenter}>
-                            Acquerrir assez de connaissance pour aidé
+                            Acquerir assez de connaissances pour aider
                             éfficacement les projets Open Source qui me tiennent
                             à coeur.
                           </p>

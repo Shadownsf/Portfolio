@@ -18,13 +18,6 @@ import angular from "assets/img/logo/Angular.png";
 import javascript from "assets/img/logo/javascript.png";
 import mongodb from "assets/img/logo/mongodb.png";
 import nodejs from "assets/img/logo/nodejs.png";
-// import react from "assets/img/logo/react.png";
-// import sqlServer from "assets/img/logo/sqlServer.png";
-// import azureDevops from "assets/img/logo/azureDevOp.png";
-// import jquery from "assets/img/logo/jquery.png";
-// import git from "assets/img/logo/git.png";
-// import azure from "assets/img/logo/azure.png";
-// import unity from "assets/img/logo/unity3d.jpg";
 import ScrollableAnchor from "react-scrollable-anchor";
 
 const useStyles = makeStyles(theme => ({
@@ -83,11 +76,11 @@ export default function Mobiteach() {
           />
           <CardContent>
             <Typography variant="body2" color="textSecondary" component="p">
-              Mobiteach est une application d’entraîner embarqué sur un box.
-              elle permet à un instructeur de pouvoir gérer une classe via la
-              connexion à ce box. en effet les apprenant se connecte sur la Box
-              et on accède au cours et peut interagir avec l'instructeur via la
-              connexion Wi-Fi des box.
+              Mobiteach est une application embarqué sur une box.
+              Elle permet à un instructeur de pouvoir gérer une classe via la
+              connexion à cette box. En effet les apprenants se connectent sur la box
+              et accèdent au cours. Il peuvent ainsi interagir avec l'instructeur via la
+              connexion Wi-Fi des boxs.
             </Typography>
           </CardContent>
           <CardActions disableSpacing>
@@ -173,29 +166,29 @@ export default function Mobiteach() {
             <CardContent>
               <Typography paragraph>Ma contribution :</Typography>
               <Typography paragraph>
-                durant ce projet dans un premier temps mon role était de donner
-                un coups de main a la maintenance de l'application. <br />
-                Trés vite champs d'action s'est élargie. j'ai dévelloper une
+                Durant ce projet dans un premier temps mon rôle était de donner
+                un coup de main à la maintenance de l'application. <br />
+                Trés vite mon champs d'action s'est élargi. J'ai développé une
                 application permettant le monitoring des serveurs de
-                l'entreprise. dans le même temps je me suis charger de
-                l'installation de l'application sur les boxs. On m'a laisser la
-                charge de l'automatisation de l'installation. je devais
-                également charger de commander les différents composants des
+                l'entreprise. Dans le même temps je me suis chargé de
+                l'installation de l'application sur les boxs. On m'a laissé la
+                charge de l'automatisation de l'installation. Je devait
+                également commander les différents composants des
                 boxs (puce wifi, barette de ram , disque dur etc...) et les
-                montés.
+                monter.
               </Typography>
               <br />
-              <Typography>Ce que j'ai appris</Typography>
+              <Typography>Ce que j'ai appris :</Typography>
               <br />
               <Typography paragraph>
-                Ce statge à été éffectuer dans un environement assez
-                particulier. En effet Mon maitre de stage n'etant pas present ,
+                Ce stage à été effectué dans un environement assez
+                particulier. En effet Mon maitre de stage n'etant pas present sur Paris,
                 je n'avais pas de développeur présent dans l'enceinte de
                 l'entreprise. Cela ma permis de faire preuve d'une grande
-                autonomie et de perseverance pour menez à bien mes projets.
+                autonomie et de perseverance pour mener à bien mes projets.
                 <br />
                 J'ai également pu acquerir des compétences qui n'ont rien à voir
-                avec ma formation.
+                avec ma formation. Tels que des compétences en logistique par exemple.
               </Typography>
             </CardContent>
           </Collapse>

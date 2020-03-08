@@ -167,25 +167,25 @@ export default function Cloud() {
         <DialogTitle id="alert-dialog-title">Presentation : </DialogTitle>
         <DialogContent>
           <DialogContentText>
-            Le Cloud computing est un ensemble d'offre d'hébergement et des
-            services distants permettant de stocker des application, des base de
-            données et d'autres services
+            Le Cloud computing est un ensemble d'offre d'hébergement et de
+            services distants permettant de stocker des applications, des bases de
+            données et gérer d'autres services
           </DialogContentText>
         </DialogContent>
 
         <DialogTitle id="alert-dialog-title">
-          Mon expériences avec le cloud computing :
+          Mon expérience avec le cloud computing :
         </DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            L'ensemble de mes projet au sein de l'entreprise infeeny était
-            héberger sur l'outil de cloud computing nommée azure. Ainsi j'ai eu
-            l'occasion de pouvoir utiliser les services disponible sur la
-            plateforme tel que la création de WebApi, la création de base de
-            données. le projet le plus marquant à mes yeux fut l'implémentation
-            d'Azure function sur le projet SuiviCollab. Une techno dîtes
-            serverless (Faas) permettant de dévellopper et d'exécuter du code
-            sans se soucié des problématiques d'infrastructure ou de
+            L'ensemble de mes projets au sein de l'entreprise infeeny étaient
+            hébergés sur l'outil de cloud computing nommé azure. Ainsi j'ai eu
+            l'occasion de pouvoir utiliser les services disponibles sur la
+            plateforme tel que la création de WebApi, la création de bases de
+            données. Le projet le plus marquant à mes yeux fut l'implémentation
+            d'Azure function sur le projet SuiviCollab. Une technologie dîte
+            serverless (Faas) permettant de développer et d'exécuter du code
+            sans se soucier des problématiques d'infrastructure ou de
             maintenance.
           </DialogContentText>
         </DialogContent>
@@ -193,10 +193,10 @@ export default function Cloud() {
         <DialogTitle id="alert-dialog-title">Projection :</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            Le Cloud Computing étant assez vaste. il est long et difficile de
+            Le Cloud Computing étant assez vaste, il est long et difficile de
             maitriser parfaitement toutes les fonctionnalités mise à
-            disposition. mon souhait est d'en apprendre d'avantage sur Azure
-            mais aussi de m'initier a AWS le service concurrent d'Amazone.
+            disposition. Mon souhait est d'en apprendre d'avantage sur Azure
+            mais aussi de m'initier à AWS le service concurrent d'Amazon.
           </DialogContentText>
         </DialogContent>
       </Dialog>

@@ -13,25 +13,15 @@ import Typography from "@material-ui/core/Typography";
 import ScrollableAnchor from "react-scrollable-anchor";
 
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import mobiteach from "assets/img/logo/mobiteach.png";
-import angular from "assets/img/logo/Angular.png";
-import react from "assets/img/logo/react.png";
-import jquery from "assets/img/logo/jquery.png";
+
 import infeeny from "assets/img/logo/infeeny.png";
 
-import dotnet from "assets/img/logo/.net.png";
+import dotnet from "assets/img/logo/dotnet.png";
 import javascript from "assets/img/logo/javascript.png";
 import csharp from "assets/img/logo/csharp.png";
-import nodejs from "assets/img/logo/nodejs.png";
-
-import mongodb from "assets/img/logo/mongodb.png";
 
 import sqlServer from "assets/img/logo/sqlServer.png";
 import azureDevops from "assets/img/logo/azureDevOp.png";
-
-import git from "assets/img/logo/git.png";
-import azure from "assets/img/logo/azure.png";
-import unity from "assets/img/logo/unity3d.jpg";
 import unhaj from "assets/img/logo/Unhaj.jpg";
 
 const useStyles = makeStyles(theme => ({
@@ -93,11 +83,9 @@ export default function Unhaj() {
           />
           <CardContent>
             <Typography variant="body2" color="textSecondary" component="p">
-              Sihaj est un ensemble de solution de gestion de parc immobiliers
-              pour le compte d’un conglomérat d’association (Unhaj). Il permet
-              la gestion des adhérents au service de ses associations avant
-              pendant et après leurs séjours dans les appartement mise à
-              disposition.
+              Sihaj est un ensemble de solutions de gestion de parcs immobiliers
+              appartenant au groupe d’association Unhaj. Ils permettent
+              la gestion des adhérents des services des associations.
             </Typography>
           </CardContent>
           <CardActions disableSpacing>
@@ -185,19 +173,18 @@ export default function Unhaj() {
             <CardContent>
               <Typography paragraph>Ma contribution :</Typography>
               <Typography paragraph>
-                Durant se projet mon rôles à été essentiellement d'analyser le
+                Durant ce projet mon rôle à été essentiellement d'analyser le
                 code et corriger les bugs. j'ai eu l'occasion d’effectuer de
-                nouvelles features. Crée des rapports pour le service compta
-                grace à SSRS, Ainsi que de mettre en place l'intégration
-                continue avec Aure Devops
+                nouvelles features. Créer des rapports pour le service comptabilité
+                grace à SSRS. J'ai également pu mettre en place l'intégration
+                continue de l'application avec Azure Devops.
               </Typography>
-              <Typography paragraph></Typography>
               <Typography paragraph>
-                J'ai eu la chance de pouvoir m'occupé seul de ce projet au bout
-                d'un an. ainsi j'ai pu récuillir directement les demandes du
-                client et y répondre. Cela ma permit de mettre à l'épreuve mon
-                autonomie. Ainsi j'ai pu aussi valider tout mes acquis en
-                faisant mes propres choix et en les mettant en place pour le
+                J'ai eu la chance de pouvoir m'occuper seul de ce projet au bout
+                d'un an et demi. Ainsi j'ai pu récuillir directement les demandes du
+                client et y répondre. Cela m'a permis de mettre à l'épreuve mon
+                autonomie. Ainsi j'ai pu aussi valider tous mes acquis en
+                faisant mes propres choix techniques et en les mettant en place pour le
                 client.
               </Typography>
             </CardContent>

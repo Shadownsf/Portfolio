@@ -14,7 +14,7 @@ import ScrollableAnchor from "react-scrollable-anchor";
 
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
-import dotnet from "assets/img/logo/.net.png";
+import dotnet from "assets/img/logo/dotnet.png";
 import javascript from "assets/img/logo/javascript.png";
 import csharp from "assets/img/logo/csharp.png";
 import infeeny from "assets/img/logo/infeeny.png";
@@ -22,11 +22,6 @@ import falconLabel from "assets/img/logo/FalconLabel.png";
 
 import sqlServer from "assets/img/logo/sqlServer.png";
 import azureDevops from "assets/img/logo/azureDevOp.png";
-
-import git from "assets/img/logo/git.png";
-import azure from "assets/img/logo/azure.png";
-import unity from "assets/img/logo/unity3d.jpg";
-import journalcollab from "assets/img/logo/JournalCollab.png";
 
 const useStyles = makeStyles(theme => ({
   avatar: {
@@ -87,11 +82,11 @@ export default function FalconLabel() {
           />
           <CardContent>
             <Typography variant="body2" color="textSecondary" component="p">
-              Falconlabel est une application permettant de standardiser
+              Falconlabel est une application permettant de standardiser les
               étiquettes présents dans les avions du groupe Dassault. Le but est
-              de pouvoir generer automatiquement les étiquettes en fonction en
-              prenant en comptes les specificité de chaque avions , ainsi que
-              les spécificité des 122 langues traitées.
+              de pouvoir generer automatiquement les étiquettes tout en
+              prenant en compte les specificités de chaques avions , ainsi que
+              les spécificités des 122 langues traitées.
             </Typography>
           </CardContent>
           <CardActions disableSpacing>
@@ -181,16 +176,13 @@ export default function FalconLabel() {
               <Typography paragraph>
                 Durant ce projet mon rôle était de mettre en place l'edition de
                 nouvelles étiquettes avec un rendu en temps réel. J'ai pu
-                travailler sur plusieurs outils javascript trés amusant.
+                travailler sur plusieurs outils javascript.
               </Typography>
               <br />
 
-              <Typography paragraph>Ce que se projet m'a appris</Typography>
+              <Typography paragraph>Ce que ce projet m'a appris</Typography>
               <Typography paragraph>
-                Ce projet se déroulant durant l'été. il était difficile d'avoir
-                des dévellopeurs sur le projet tout le long du projet. Du coup
-                j'ai eu à m'adapter une semaine sur l'autre à de nouveaux
-                devellopeurs tout en essayant de faire avancé le projet.
+              Ce projet s'est déroulé pendant l'été, il à donc été dificile de trouver des développeurs disponibles tout au long de cette mission. J'ai donc du travailler et m'adapter à de nouveaux collaborateurs tout essayant de faire avancer éfficacement le projet.
               </Typography>
             </CardContent>
           </Collapse>

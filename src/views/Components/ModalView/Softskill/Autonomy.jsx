@@ -149,28 +149,28 @@ export default function Autonomy() {
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
             L'autonomie est l'une des caractéristiques primordiales pour un
-            informaticien. sont savoir faire n'est que la sommes des ses
-            expériences et ses éxpériences ne sont formatrice que lorsque le
-            develloppeur prend le temps de l'affronter seul avant de demander de
-            l'aide. entendons nous bien, l'autonomie n'a rien a voir avec le
+            informaticien. Son savoir-faire n'est que la sommes des ses
+            expériences. Celles-ci ne sont formatrice que lorsque les
+            developpeurs prennent le temps de l'affronter seul avant de demander de
+            l'aide. L'autonomie n'a rien à voir avec le
             fait d'etre un soliste de l'informatique. Je pense simplement que la
             vie d'ingénieur en informatique n'est qu'une succéssion de
-            problématique insoluble d'apparence mais que le dévelloppeurs
-            apprends à apréhender avec le temps. L'autonomie selon moi est avant
-            tout la capacité à évaluer le niveau de difficulté de ses
-            problématiques. ne pas hésitez à alerter ses collégue si la
-            difficulter nous dépasse. ainsi que de rendre compte du travail
-            éfféctuer. Le but étant que chaque entité de l'équipe sache à peu
-            prés l'etat d'avancement du travail de sont collègue et aussi
-            retirer de la charge cognitive au chef de projet.
+            problématiques insolubles en apparence, mais que le développeur
+            apprend à appréhender avec le temps. L'autonomie selon moi est avant
+            tout la capacité à évaluer le niveau de difficulté de ces
+            problématiques. ne pas hésiter à alerter ses collégues si la
+            difficulté nous dépasse. ainsi que de rendre compte du travail
+            effectué. Le but étant que chaque entité de l'équipe sache à peu
+            prés l'etat d'avancement du travail de son collègue et aussi
+            facilité le travail des collègues et du chef de projet.
           </DialogContentText>
         </DialogContent>
         <DialogTitle id="alert-dialog-title">Mon Futur :</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            Je pense que l'autonomie est une de mes force, cependant je pense
+            Je pense que l'autonomie est une de mes forces, cependant je pense
             avoir encore une marge de progression dans ma communication afin de
-            fluidifié d'avantage mes compte rendu sur l'état d'avancement de mes
+            fluidifier d'avantage mes comptes-rendus sur l'état d'avancement de mes
             projets.
           </DialogContentText>
         </DialogContent>

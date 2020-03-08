@@ -144,27 +144,26 @@ export default function Curiosity() {
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
             La curiosité est l'essence même de ma vie d'ingenieur en
-            informatique. C'est grace ou à cause de ma curiosité que je fais se
-            metier. en effet se metier me donne l'impression d'en apprendre tout
+            informatique. C'est grâce à ma curiosité que je travail dans ce
+            metier. En effet ce metier me donne l'impression d'en apprendre tous
             les jours et que plus je cherche à comprendre les choses, plus je me
-            rends compte de l'immensité de mon ignorance sur les sujets, plus je
-            cherche à comprendre . Cette boucle sans fin me permet de
+            rends compte de l'immensité de mon ignorance sur les sujets Ce qui me donne envie d'en apprendre d'avantage. Cette boucle sans fin me permet de
             m'épanouir.
             <br />
-            L'une de mesforce est que je n'est pas peur de me confronter à de
-            nouveaux sujets, au contraire j'ai être versatile et je pense que
-            mon profils couteaux suisse peut être une réel force dans le reste
+            L'une de mes forces est que je n'aie pas peur de me confronter à de
+            nouveaux sujets, au contraire. J'aime être versatile et je pense que
+            mon profil "couteau suisse" peut être une réel force pour le reste
             de ma carrière.
           </DialogContentText>
         </DialogContent>
         <DialogTitle id="alert-dialog-title">Mon Futur :</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            Grace à mes différentes expériences je me suis rendu compte que mon
+            Grâce à mes différentes expériences je me suis rendu compte que mon
             réel moteur dans l'informatique etait ma curiosité. Dans le futur le
-            1ère critère de choix sur mes missions se fera avant tout sur la
+            1èr critère de choix sur mes missions se fera avant tout sur la
             possibilité d'apprendre un maximum de choses et d'en décourvrir
-            d'autres durant la missions.
+            d'autres durant les missions.
           </DialogContentText>
         </DialogContent>
       </Dialog>

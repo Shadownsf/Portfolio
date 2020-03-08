@@ -144,33 +144,33 @@ export default function Determination() {
         <DialogTitle id="alert-dialog-title">Présentation :</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            La détermination est selon moi , un style de vie. permet à un
-            devellopeur d'être acteur de son métier longtemps et efficacement.
+            La détermination est, selon moi , un style de vie. Elle permet à un
+            developpeur d'être acteur de son métier longtemps et efficacement.
             avoir le courage et la determination de se confronter à des nouveaux
             defis permet de mesurer mon evolution ainsi que d'évaluer mes
-            limites actuelles. c'est ainsi que j'ai toujours essayer de
-            m'investir physiquement , moralement et emotionelement dans tous se
-            que j'entreprends. en m'assurant d'arriver à un résultat donc je
-            pourrais être fier. j'ai eu l'occasion de mettre cette compétences
+            limites actuelles. C'est ainsi que j'ai toujours essayer de
+            m'investir physiquement , moralement et émotionnellement dans tous ce
+            que j'entreprend. En m'assurant d'arriver à un résultat dont je
+            pourrais être fier. J'ai eu l'occasion de mettre cette compétence
             humaine à l'épreuve apres ma césure de 3 ans dans l'informatique.
             J'ai repris mes études. J'ai également eu l'occasion de me
-            challenger sur des sujets nouveaux pour moi en entreprise mais que
-            j'ai pu apprivoisé , puis maitriser. Afin d'illustrer mon propos je
+            challenger sur des nouveaux sujets en entreprise. 
+            Afin d'illustrer mon propos je
             prendrais l'exemple de mon expériences avec le projet Mobiteach. En
             effet durant se projet j'ai du mettre en place des choses qui
-            n'avait pas grand choses à voir avec ma formation de développeur
-            comme par exemple la gestions des stocks du materiel de l'entreprise
-            ou l'automatisation de l'installation des apllications sur les boxs
-            utilisées pour le projets. Grace a ma determination j'ai pu prendre
-            ses problématique à bras le corps et j'ai pu repondre seul au defis
+            n'avait pas grand choses à voir avec ma formation de développeur.
+            Exemple la gestion des stocks du materiels de l'entreprise
+            ou l'automatisation de l'installation de l'apllication sur les boxs
+            utilisées pour le projet. Grace à ma determination j'ai pu prendre
+            ces problématique à bras le corp et j'ai pu repondre seul aux defis
             qui se présentait devant moi.
           </DialogContentText>
         </DialogContent>
         <DialogTitle id="alert-dialog-title">Mon Futur :</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            J'espere au cours de ma carrière etre confronter à de nouveaux defis
-            et continuer à grandir.
+            J'éspere au cours de ma carrière être confronté à de nouveaux defis
+            et continuer à mettre à l'épreuve ma détermination.
           </DialogContentText>
         </DialogContent>
       </Dialog>

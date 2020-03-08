@@ -183,14 +183,10 @@ export default function Autonomy() {
         <DialogContent>
           <DialogContentText>
             La base de données est l'endroit ou l'on stock les données. c'est un
-            éléments stratégique parceque le stockage ,la modification et la
-            restitution des données conditionnes tout le reste de l'application.
-            <br /> c'est lui qui est chargé de fournir les données au différents
-            services consommateurs (site internet, application mobile etc...).
-            cette partie de notre métier de développeur nécessite une bonne
-            connaissance des bases en développement informatiques afin de faire
-            des programmes rapide, modulaires et qui peuvent facilement évoluer
-            dans le temps.
+            élément stratégique car le stockage ,la modification et la
+            réstitution des données conditionnes l'ensemble de l'application.
+            <br /> La basees est chargé de fournir les données aux différents
+            services qui la consomme (site internet, application mobile etc...).
           </DialogContentText>
         </DialogContent>
 
@@ -199,28 +195,27 @@ export default function Autonomy() {
         </DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            La gestion des base de données sont un enjeux majeur de notre
-            métier. Cependant Lorsque j'ai commencer l'informatique. les base de
-            données n'avais pour seul utilié de persister les données dans le
-            temps. AU fur et à mesure de mes expériences je me suis rendu compte
-            que la restitutions des données était un enjeux majeurs dans le
-            dévellopement d'une application et que cela conditionne tout le
-            reste de l'application. <br />
-            J'ai pu experimenter different type de base de données tel que les
-            documents lors de mon stage. J'ai pu me rendre compte qu'il pouvais
+            La gestion des bases de données est un enjeux majeur de notre
+            métier. Cependant Lorsque j'ai commencé l'informatique. les bases de
+            données avais pour seul utilié de persister les données dans le
+            temps. Au fur et à mesure de mes expériences je me suis rendu compte
+            que la restitution des données était un enjeux majeur dans le
+            dévellopement d'une application. <br />
+            J'ai pu experimenté differents type de bases de données tels que les
+            "documents" lors de mon stage. J'ai pu me rendre compte qu'il pouvait
             être pertinent de mettre en place des batchs de sauvegarde des
-            données qui tourne pendant la nuit.
+            données qui tournent pendant la nuit par exemple.
           </DialogContentText>
         </DialogContent>
 
         <DialogTitle id="alert-dialog-title">Projection :</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            J'espere pouvoir apprendre d'avantage sur l'optimisation des bases
-            de données. notament sur des base de données trés conséquente. Je
+            J'éspère pouvoir apprendre d'avantage sur l'optimisation des bases
+            de données. Notament sur des bases de données trés conséquentes. Je
             souhaite également m'aguerir sur les bases de données dans des
-            applications architecturé en micro-service. ou même en apprendre
-            d'avantage sur les base de données de type graph.
+            applications architecturées en micro-service. J'éspère égalementen apprendre
+            d'avantage sur les bases de données de type graph.
           </DialogContentText>
         </DialogContent>
       </Dialog>
