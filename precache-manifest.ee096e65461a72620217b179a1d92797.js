@@ -1,35 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34b4e2641834cbce6011cbc0cadbc608",
+    "revision": "64000947b3f2ee7567af70a8c8ee6a36",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "c97d252013af446aa4a4",
-    "url": "/Portfolio/static/css/2.400ebc83.chunk.css"
+    "revision": "df17d6bee13285fc1eaa",
+    "url": "/Portfolio/static/css/2.0eaf8e31.chunk.css"
   },
   {
-    "revision": "b81c8eb5bbb048284860",
+    "revision": "87099ab87c7caa3f96fd",
     "url": "/Portfolio/static/css/main.1fb7086c.chunk.css"
   },
   {
-    "revision": "c97d252013af446aa4a4",
-    "url": "/Portfolio/static/js/2.84ea0189.chunk.js"
+    "revision": "df17d6bee13285fc1eaa",
+    "url": "/Portfolio/static/js/2.16323d40.chunk.js"
   },
   {
     "revision": "d54387b171a4005e2106389870c60b3a",
-    "url": "/Portfolio/static/js/2.84ea0189.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.16323d40.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b81c8eb5bbb048284860",
-    "url": "/Portfolio/static/js/main.c55b36c5.chunk.js"
+    "revision": "87099ab87c7caa3f96fd",
+    "url": "/Portfolio/static/js/main.c975385b.chunk.js"
   },
   {
     "revision": "38bd9864b89542ee2c09",
     "url": "/Portfolio/static/js/runtime-main.16ca6592.js"
-  },
-  {
-    "revision": "e17e47d5dfdcea0c7bf2dfd6bf55f6d8",
-    "url": "/Portfolio/static/media/.net.e17e47d5.png"
   },
   {
     "revision": "3de0799bd39c2f357822fe5d9e017aec",
@@ -64,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/blop.be08914b.jpg"
   },
   {
+    "revision": "e17e47d5dfdcea0c7bf2dfd6bf55f6d8",
+    "url": "/Portfolio/static/media/dotnet.e17e47d5.png"
+  },
+  {
     "revision": "d3c3b13df67559505c59190751d43fb0",
     "url": "/Portfolio/static/media/mobi.d3c3b13d.png"
   },
@@ -82,9 +82,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5de754e3f257dd4db8fd58f0d7de14e9",
     "url": "/Portfolio/static/media/sqlServer.5de754e3.png"
-  },
-  {
-    "revision": "304cb56de88f3bf57f8d7166996cd477",
-    "url": "/Portfolio/static/media/unity3d.304cb56d.jpg"
   }
 ]);
